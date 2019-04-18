@@ -19,7 +19,7 @@
 
 
 	if ($stmt->execute()){
-	    header('Location: form-cadastro.php');
+	    header('Location: form-list.php');
 	}
 	else{
 	    echo "Erro ao cadastrar";
